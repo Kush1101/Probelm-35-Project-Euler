@@ -3,6 +3,8 @@ import time
 """
 We will be checking only the numbers which dont contian the even digits. Because in cyclic rotation those digits 
 will be at some point come at last and make the whole number even. For this we define and use the function evendigit
+
+With this optimization our code will execute in less than 3 seconds
 """
 
 a=time.time()
@@ -19,7 +21,7 @@ def isprime(n):                 # checking if prime
     return True
 
 n=2000000
-c=0
+c=1    # since 2 is also a prime we start our counting at 1 becuase the loop shall start form 3 
 for i in range(3,n+1,2):
     if evendigit(i):
         
@@ -33,3 +35,4 @@ for i in range(3,n+1,2):
             c+=1
 print(c)
 print(time.time()-a)
+#c=55 is the answer
