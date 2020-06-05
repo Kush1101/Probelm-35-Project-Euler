@@ -1,7 +1,7 @@
 import time
 
 """
-We will be checking only the numbers which dont contian the even digits. Because in cyclic rotation those digits 
+We will be checking only the numbers which don't contain the even digits. Because in cyclic rotation those digits 
 will be at some point come at last and make the whole number even. For this we define and use the function evendigit
 
 With this optimization our code will execute in less than 3 seconds
