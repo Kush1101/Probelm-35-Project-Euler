@@ -1,4 +1,4 @@
-import time,math
+import time, math
 
 """
 We will be checking only the numbers which don't contain the even digits. Because in cyclic rotation those digits 
